@@ -26,6 +26,6 @@ Real hardware compilation target: armv7-wrs-vxworks-eabihf
 
 
 
-### [API bindings, tips, known issues](bindings.md)
+### [API bindings, snippets, known issues](snippets/README.md)
 
 
