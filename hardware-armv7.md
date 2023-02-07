@@ -26,13 +26,17 @@ Don't forget to compile the project to produce the output files - `cargo build`
 
 Open your fork of this VSB project in WindRiver IDE, connect the board and in the file tree locate file `usr/rust/application-name/target/armv7-wrs-vxworks-eabihf/debug/application-name.vxe`
 
-Right click on this file and select "Build and launch". This will start a build process that takes about one to two minutes.
+Same as when running using simulator, locate "Target actions for selected connection" button (shown in the figure) and select "Run/Debug Real Time Process"
 
-__TODO__ screenshots
+![Target actions for selected connection](figures/run-rtp-select.png)
+
+A new window will pop up. Fill in the field "Host path" with the path to the `.vxe` file (your compile output) - it will be located in `<project>/usr/rust/dining_phil/target/x86_64-wrs-vxworks/debug`
+
+![RTP run target configuration](figures/run-rtp.png)
 
 I have experienced a lot of errors during this build, related to ssl libraries. Luckily I didn't need to use it and it was possible to launch the program anyways.
 
 *Anyone is welcome to figure out the source of this issue and then open a PR to update this documentation.*
 
 
-After updating your code, don't forget to repeat both steps, `2.` and `3.`
+After updating your code, don't forget to recompile your code (step `2.`) before uploading it again (step `3.`)

@@ -150,12 +150,16 @@ John is done eating.
 
 Open your VSB project in the the WindRiver IDE
 
-In this project, navigate to the rust compile output, which means `usr/rust/dining_phil/target/x86_64-wrs-vxworks/debug` and you should see a file `dining_phil.vxe` there. Right click it and select `Run`
+Locate "Target actions for selected connection" button (shown in the figure) and select "Run/Debug Real Time Process"
 
-__TODO__ screenshots
+![Target actions for selected connection](figures/run-rtp-select.png)
+
+A new window will pop up. Fill in the field "Host path" with the path to the `.vxe` file (your compile output) - it will be located in `<project>/usr/rust/dining_phil/target/x86_64-wrs-vxworks/debug`
+
+![RTP run target configuration](figures/run-rtp.png)
 
 
-*Whenever you change your code, don't forget to rebuild it using as described in step 6.*
+*Whenever you change your code, don't forget to rebuild it using as described in the step `6.`*
 
 
 
