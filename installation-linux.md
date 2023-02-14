@@ -9,10 +9,10 @@
 
 ## 1. Rust
 
-__TODO__ - is rust installation necessary? Cargo?
-
 
 We will use rust installation that comes with VxWorks. There should be a toolchain located in `/opt/WindRiver/compilers/rust-1.60.0.0/x86_64-unknown-linux-gnu/bin` directory.
+
+*Any other (system-wide) RUST installation shouldn't be necessary, however if for some reason it is, follow the standard RUST installation guide*
 
 
 ## 2. Environmental variables
