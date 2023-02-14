@@ -21,8 +21,10 @@ Simulator: Running on the same (x86_64) machine
 
 ### [Real hardware](hardware-armv7.md)
 
-Real hardware: University [development board](https://rtime.felk.cvut.cz/psr/cviceni/mzapo/) which is based on [MicroZed board](https://www.avnet.com/wps/portal/us/products/avnet-boards/avnet-board-families/microzed) with [Xilinx Zynq-7000 System on Chip](https://www.xilinx.com/products/silicon-devices/soc/zynq-7000.html). 
+Real hardware: University [development board](https://rtime.felk.cvut.cz/psr/cviceni/mzapo/) which is based on [MicroZed board](https://www.avnet.com/wps/portal/us/products/avnet-boards/avnet-board-families/microzed) with [Xilinx Zynq-7000 System on Chip](https://www.xilinx.com/products/silicon-devices/soc/zynq-7000.html). The FPGA chip has integrated ARM core on the same die. We will be programming only the ARM chip. This chip can however interface with the FPGA as an external periphery, if the need arises in your project.
+
 Real hardware compilation target: armv7-wrs-vxworks-eabihf
+
 
 
 
